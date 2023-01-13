@@ -72,8 +72,8 @@ function Projects() {
               operation.
               Get All Data, Get Data By Id ,insert Data , Update By Id
               And Delete Data By Id"
-              ghLink="https://github.com/saurabhgkp/gsheet-to-db"
-              demoLink="https://www.npmjs.com/package/gsheet-to-db"
+              ghLink=""
+              demoLink="https://saurabh-singh-port.netlify.app/"
             />
           </Col>
 
