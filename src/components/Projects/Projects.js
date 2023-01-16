@@ -10,6 +10,8 @@ import mgf from "../../Assets/Projects/mgf.png";
 import GasOLine from "../../Assets/Projects/Gas-O-Line.png";
 import schedassist from "../../Assets/Projects/schedassist.png";
 import pcology from "../../Assets/Projects/pcology.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
+
 
 function Projects() {
   return (
@@ -87,6 +89,19 @@ function Projects() {
 website for custom build pc"
               ghLink=""
               demoLink="https://schedassist.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="portfolio (FPP)"
+              description="first-person perspective with a 3D environment. In order to explore the site, you need to use pc.
+              Welcome to my portfolio site. This project was built with the library React-Three-Fiber And for Physics Cannon.js 
+              "
+              ghLink=""
+              demoLink="https://saurabh-singh-port.netlify.app/"
             />
           </Col>
 
