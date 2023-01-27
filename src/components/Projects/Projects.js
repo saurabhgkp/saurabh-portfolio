@@ -11,7 +11,7 @@ import GasOLine from "../../Assets/Projects/Gas-O-Line.png";
 import schedassist from "../../Assets/Projects/schedassist.png";
 import pcology from "../../Assets/Projects/pcology.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
-
+import My_Business_App from "../../Assets/Projects/My_Business_App.png";
 
 function Projects() {
   return (
@@ -104,7 +104,17 @@ website for custom build pc"
               demoLink="https://saurabh-singh-port.netlify.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={My_Business_App}
+              isBlog={false}
+              title="My Business App"
+              description="MY BUSINESS APP makes it easy, to scan and send documents such as bills, bank statements, deposit slips etc., to your accountant. You can also view the completed reports and acknowledgements, sent by your accountant in separate folders.
+              "
+              ghLink=""
+              demoLink="https://play.google.com/store/apps/details?id=ca.mbapp.app.v1&pli=1"
+            />
+          </Col>
 
 
         </Row>
