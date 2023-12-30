@@ -23,7 +23,7 @@ function Home2() {
               <br />
 
               <i>
-                <b className="purple">  Javascript, Node.js and React.js </b>
+                <b className="purple">Typescript, OOPs, AWS and SOLID Principles </b>
               </i>
               <br />
               <br />
@@ -36,7 +36,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Node.js </b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -45,7 +45,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js,Next.Js and Nest.js</b>
               </i>
             </p>
           </Col>
@@ -74,7 +74,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://twitter.com/SAURABH06053374"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

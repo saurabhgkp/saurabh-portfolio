@@ -9,7 +9,7 @@ import mgf from "../../Assets/Projects/mgf.png";
 
 import GasOLine from "../../Assets/Projects/Gas-O-Line.png";
 import schedassist from "../../Assets/Projects/schedassist.png";
-import pcology from "../../Assets/Projects/pcology.png";
+// import pcology from "../../Assets/Projects/pcology.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import My_Business_App from "../../Assets/Projects/My_Business_App.png";
 
@@ -58,10 +58,8 @@ function Projects() {
               imgPath={gsheettodb}
               isBlog={false}
               title="gsheet-to-db"
-              description="Use Google Sheets as a database perform all CRUD
-              operation.
-              Get All Data, Get Data By Id ,insert Data , Update By Id
-              And Delete Data By Id"
+              description="SheetDB will turn your sheets into a JSON API, easy to integrate with other tools.
+              You can read and edit your spreadsheet with GET, POST, PUT and DELETE requests with just a few lines of code."
               ghLink="https://github.com/saurabhgkp/gsheet-to-db"
               demoLink="https://www.npmjs.com/package/gsheet-to-db"
             />
@@ -80,7 +78,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pcology}
               isBlog={false}
@@ -90,7 +88,7 @@ website for custom build pc"
               ghLink=""
               demoLink="https://schedassist.com/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
