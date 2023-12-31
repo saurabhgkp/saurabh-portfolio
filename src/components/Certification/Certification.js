@@ -28,14 +28,15 @@ function Certification() {
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={"https://udemy-certificate.s3.amazonaws.com/image/UC-dfd112c7-e60e-4583-84d1-43566a5436b5.jpg?v=1703925135000"}
+                            imgPath={"https://udemy-certificate.s3.amazonaws.com/image/UC-8d741058-766f-4119-b661-2298f02470a8.jpg?v=1704043276000"}
                             isBlog={false}
-                            title=" 🔰 Redis Database Tutorial"
+                            title=" 🔰 Docker"
                             description="Interactive Course on Udemy"
 
-                            demoLink={"https://udemy-certificate.s3.amazonaws.com/image/UC-dfd112c7-e60e-4583-84d1-43566a5436b5.jpg?v=1703925135000"}
+                            demoLink={"https://udemy-certificate.s3.amazonaws.com/image/UC-8d741058-766f-4119-b661-2298f02470a8.jpg?v=1704043276000"}
                         />
                     </Col>
+
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={"https://wsrv.nl/?url=https%3A%2F%2Fcodedamn-user-screenshots.s3.amazonaws.com%2F758e231a211733f14e52d675115dfa354bd1b498%2F1685869928998.png&w=1920&q=70&output=webp"}
@@ -44,6 +45,16 @@ function Certification() {
                             description="Interactive Course on Codedamn"
 
                             demoLink={"https://wsrv.nl/?url=https%3A%2F%2Fcodedamn-user-screenshots.s3.amazonaws.com%2F758e231a211733f14e52d675115dfa354bd1b498%2F1685869928998.png&w=1920&q=70&output=webp"}
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={"https://udemy-certificate.s3.amazonaws.com/image/UC-dfd112c7-e60e-4583-84d1-43566a5436b5.jpg?v=1703925135000"}
+                            isBlog={false}
+                            title=" 🔰 Redis Database Tutorial"
+                            description="Interactive Course on Udemy"
+
+                            demoLink={"https://udemy-certificate.s3.amazonaws.com/image/UC-dfd112c7-e60e-4583-84d1-43566a5436b5.jpg?v=1703925135000"}
                         />
                     </Col>
                     <Col md={4} className="project-card">
