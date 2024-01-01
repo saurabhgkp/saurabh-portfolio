@@ -6,10 +6,12 @@ import {
   DiReact,
   DiNodejs,
   DiAws,
+  DiNpm,
   DiGithubBadge,
   DiMongodb,
   DiHtml5,
   DiGit,
+  DiDocker,
   DiPostgresql,
 } from "react-icons/di";
 import {
@@ -21,7 +23,9 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -36,6 +40,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNpm />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />

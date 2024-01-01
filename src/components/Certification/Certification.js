@@ -30,7 +30,7 @@ function Certification() {
                         <ProjectCard
                             imgPath={"https://udemy-certificate.s3.amazonaws.com/image/UC-8d741058-766f-4119-b661-2298f02470a8.jpg?v=1704043276000"}
                             isBlog={false}
-                            title=" 🔰 Docker"
+                            title=" 🔰 Docker course for beginners"
                             description="Interactive Course on Udemy"
 
                             demoLink={"https://udemy-certificate.s3.amazonaws.com/image/UC-8d741058-766f-4119-b661-2298f02470a8.jpg?v=1704043276000"}
